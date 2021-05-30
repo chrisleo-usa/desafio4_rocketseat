@@ -4,15 +4,7 @@ import { FiCheckSquare } from 'react-icons/fi';
 import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
-
-interface FoodData {
-  id: number
-  name: string
-  description: string
-  price: number
-  available: boolean
-  image: string
-}
+import { FoodData } from '../../services/type'
 
 interface ModalAddFoodProps {
   isOpen: boolean
